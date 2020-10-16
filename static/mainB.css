@@ -21,10 +21,10 @@ header {
 
 .content-pane {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .section-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
     margin-right: 20%;
     font-size: 40px;
@@ -38,8 +38,6 @@ header {
 }
 
 .vendor-wrapper {
-    justify-content: center;
-    align-content: center;
     width: 200px;
     height: 215px;
 }
