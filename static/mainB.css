@@ -1,7 +1,7 @@
 /* Feel free to modify anything in this file.*/
 
 html body {
-    background-color: lavender;
+    background-color: #FFE4C4;
 }
 
 header {
@@ -21,25 +21,27 @@ header {
 
 .content-pane {
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .section-title {
+    text-align: right;
+    margin-right: 20%;
     font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    font-style: italic;
 }
 
-.flex-container {
+.vendor-flex-container {
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
-    justify-content: center;
 }
 
 .vendor-wrapper {
     justify-content: center;
+    align-content: center;
     width: 200px;
-    height: 200px;
+    height: 215px;
 }
 
 .vendor-photo {
@@ -49,17 +51,21 @@ header {
 }
 
 .vendor-description {
-    padding-left: 10%;
-    padding-right: 10%;
+    font-size: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 550;
 }
 
-.vendor-button-count {
-    bottom: 0%;
+.vendor-price {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .vendor-book-button {
-    justify-content: center;
+    width: 100px;
     font-size: 2em;
+    object-position: center;
 }
 
 .item-count {
