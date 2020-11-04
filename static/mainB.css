@@ -33,17 +33,18 @@ header {
 
 .vendor-flex-container {
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
 }
 
 .vendor-wrapper {
     width: 200px;
-    height: 215px;
+    height: 300px;
+    margin: 25px;
 }
 
 .vendor-photo {
-    justify-content: center;
     max-width: 200px;
     max-height: 150px;
 }
@@ -53,6 +54,11 @@ header {
     padding-left: 5%;
     padding-right: 5%;
     font-weight: 550;
+}
+
+.vendor-bottom {
+    display: block;
+    align-self: flex-end;
 }
 
 .vendor-price {
@@ -97,6 +103,5 @@ header {
 
 .cart-wrapper {
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
